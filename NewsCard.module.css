@@ -1,0 +1,24 @@
+.card{
+    border: 1px solid silver;
+    padding: 15px;
+    border-radius: 15px;
+}
+.card > img{
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+
+.cardfoot{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.cardfoot img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+}

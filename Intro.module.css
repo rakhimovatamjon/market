@@ -1,0 +1,20 @@
+.intromain{
+    height: 60vh;
+    background-image: url('/public/assets/images/Image.png');
+    margin: 35px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+}
+.introcard{
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 40px;
+    width: 450px;
+    height: 200px;
+    position: absolute;
+    bottom: -100px;
+    left: 50px;
+    filter: drop-shadow(3px 3px 15px gray);
+}
